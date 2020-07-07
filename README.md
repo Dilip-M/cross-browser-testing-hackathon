@@ -45,7 +45,7 @@
 
 1. Git clone this repo 
    
-   * `git clone https://github.com/applitools/tutorial-selenium-java-ultrafastgrid.git`, or download [this as a Zip file](https://github.com/applitools/tutorial-selenium-java-ultrafastgrid/archive/master.zip) and unzip it
+   * `git clone https://github.com/Dilip-M/cross-browser-testing-hackathon.git`, or download [this as a Zip file](https://github.com/Dilip-M/cross-browser-testing-hackathon/archive/master.zip) and unzip it
 2. Get an API key by logging into Applitools > Person Icon > My API Key
 3. Update the My API Key  to variable apiKey in CommonLibrary.java class. 
 4. Run the TraditionalTestsV1.xml as "Runs as TestNG Suite" to run the ModernTestsV1 
