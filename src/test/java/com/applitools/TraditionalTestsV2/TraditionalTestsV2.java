@@ -9,7 +9,7 @@ public class TraditionalTestsV2 {
 	CommonLibrary cl = new CommonLibrary();
 	@Parameters ({"BrowserType","UrlLink"})
 	@Test
-	public void invokeBrowser(String browser,String url){
+	public void traditionalTestsV2(String browser,String url){
 		cl.invokeBrowser(browser, url);
 		cl.setupTraditional();
 		cl.performTask1(browser);
