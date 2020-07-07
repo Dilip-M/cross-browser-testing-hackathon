@@ -35,7 +35,7 @@
 
    * [Install IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 
-     6.1 Set Project SDK to your JDK (installed in Step 1)  in Intellij - File > Project Structure > Project.
+     7.1 Set Project SDK to your JDK (installed in Step 1)  in Intellij - File > Project Structure > Project.
 
 8. Restart your machine to implement updated  environment variables (need for some OS).
 
@@ -48,11 +48,11 @@
    * `git clone https://github.com/Dilip-M/cross-browser-testing-hackathon.git`, or download [this as a Zip file](https://github.com/Dilip-M/cross-browser-testing-hackathon/archive/master.zip) and unzip it
 2. Get an API key by logging into Applitools > Person Icon > My API Key
 3. Update the My API Key  to variable apiKey in CommonLibrary.java class. 
-4. Run the TraditionalTestsV1.xml as "Runs as TestNG Suite" to run the ModernTestsV1 
-	a. To execute tests in parallel manner in Chrome,Firefox and safari browser, Run the TraditionalTestsV1_Parallel.xml as "Runs as TestNG Suite"
-	b. Results for this execution will be available in TestNG report as well as in Traditional-V1-TestResults.txt
-5. Run the TraditionalTestsV2.xml as "Runs as TestNG Suite" to run the ModernTestsV2 
-	a. To execute tests in parallel manner in Chrome,Firefox and safari browser, Run the TraditionalTestsV2_Parallel.xml as "Runs as TestNG Suite"
-	b. Results for this execution will be available in TestNG report as well as in Traditional-V2-TestResults.txt
+4. Run the TraditionalTestsV1.xml as "Runs as TestNG Suite" to run the TraditionalTestsV1 
+	* To execute tests in parallel manner in Chrome,Firefox and safari browser, Run the TraditionalTestsV1_Parallel.xml as "Runs as TestNG Suite"
+	* Results for this execution will be available in TestNG report as well as in Traditional-V1-TestResults.txt
+5. Run the TraditionalTestsV2.xml as "Runs as TestNG Suite" to run the TraditionalTestsV2 
+	* To execute tests in parallel manner in Chrome,Firefox and safari browser, Run the TraditionalTestsV2_Parallel.xml as "Runs as TestNG Suite"
+	* Results for this execution will be available in TestNG report as well as in Traditional-V2-TestResults.txt
 6. Run the ModernTestsV1.xml as "Runs as TestNG Suite" to run the ModernTestsV1 
 7. Run the ModernTestsV2.xml as "Runs as TestNG Suite" to run the ModernTestsV2    
