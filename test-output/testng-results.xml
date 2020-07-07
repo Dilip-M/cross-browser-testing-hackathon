@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Applitools hackathon" duration-ms="56852" started-at="2020-07-07T15:03:30Z" finished-at="2020-07-07T15:04:26Z">
+    <groups>
+    </groups>
+    <test name="Modern Test V2" duration-ms="56852" started-at="2020-07-07T15:03:30Z" finished-at="2020-07-07T15:04:26Z">
+      <class name="com.applitools.ModernTestsV2.ModernTestsV2">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.applitools.ModernTestsV2.ModernTestsV2@2d928643]" name="invokeBrowser" duration-ms="56837" started-at="2020-07-07T20:33:30Z" finished-at="2020-07-07T20:34:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.applitools.com/gridHackathonV2.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- com.applitools.ModernTestsV2.ModernTestsV2 -->
+    </test> <!-- Modern Test V2 -->
+  </suite> <!-- Applitools hackathon -->
+</testng-results>

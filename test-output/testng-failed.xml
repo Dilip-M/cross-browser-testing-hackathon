@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Testing]">
+  <parameter name="BrowserType" value="safari"/>
+  <parameter name="UrlLink" value="https://demo.applitools.com/gridHackathonV2.html"/>
+  <test name="safari testing(failed)">
+    <parameter name="BrowserType" value="safari"/>
+    <parameter name="UrlLink" value="https://demo.applitools.com/gridHackathonV2.html"/>
+    <classes>
+      <class name="com.applitools.TraditionalTestsV2.TraditionalTestsV2">
+        <methods>
+          <include name="invokeBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.applitools.TraditionalTestsV2.TraditionalTestsV2 -->
+    </classes>
+  </test> <!-- safari testing(failed) -->
+</suite> <!-- Failed suite [Parallel Testing] -->

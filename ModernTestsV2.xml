@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applitools hackathon">
+	<test name="Modern Test V2">
+		<parameter name="BrowserType" value="chrome"></parameter>
+		<parameter name="UrlLink" value="https://demo.applitools.com/gridHackathonV2.html"></parameter>
+		<classes>
+			<class name="com.applitools.ModernTestsV2.ModernTestsV2"/>
+		</classes>
+	</test>
+</suite>

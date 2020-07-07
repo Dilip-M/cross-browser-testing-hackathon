@@ -1,0 +1,3 @@
+Task: 1, Test Name: Cross-Device Elements Test, DOM Id: logo, Browser: chrome, Viewport: 1200X700, Device: Laptop, Status: Pass
+Task: 2, Test Name: Check the checkbox and Click Filter button, DOM Id: product_grid, Browser: chrome, Viewport: 1200X700, Device: Laptop, Status: Pass
+Task: 3, Test Name: Product Details test, DOM Id: MAIN__bggray__64, Browser: chrome, Viewport: 1200X700, Device: Laptop, Status: Pass

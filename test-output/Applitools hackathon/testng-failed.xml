@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Applitools hackathon]">
+  <parameter name="BrowserType" value="chrome"/>
+  <parameter name="url" value="https://demo.applitools.com/gridHackathonV1.html"/>
+  <test name="Modern Test V1(failed)">
+    <parameter name="BrowserType" value="chrome"/>
+    <parameter name="url" value="https://demo.applitools.com/gridHackathonV1.html"/>
+    <classes>
+      <class name="com.applitools.ModernTestsV1.ParallelTest">
+        <methods>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- com.applitools.ModernTestsV1.ParallelTest -->
+    </classes>
+  </test> <!-- Modern Test V1(failed) -->
+</suite> <!-- Failed suite [Applitools hackathon] -->
